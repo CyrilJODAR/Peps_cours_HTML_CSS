@@ -113,7 +113,6 @@ h3 {
 
 .sectionRecherche>div>img{
     margin: 25px auto;
-
 }
 .sectionRecherche>div:first-child {
     margin-top: 2%;
@@ -388,6 +387,10 @@ footer>div>div>img {
     .sectionRecherche>div:not(:first-child){
         flex-direction: column;
         text-align: center;
+        width: 80vw;
+    }
+    .sectionRecherche>div>img{
+        width: 100%;
     }
     .sectionRecherche>div>div{
         width: 80%;
@@ -450,9 +453,14 @@ footer>div>div>img {
     }
 
 }
-
 @media screen and (max-width: 700px) {
     .temoin>div>div{
         margin-bottom: 15%;
+    }
+    .footerContact>p{
+        font-size: 0.7rem;
+    }
+    header li{
+        padding: 0 20px;
     }
 }
